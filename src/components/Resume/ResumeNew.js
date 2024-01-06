@@ -7,7 +7,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 // import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import 'react-pdf/dist/Page/TextLayer.css';
-import Img from "../../Assets/esha.jpg"
+import Img from "../../Assets/esha.png"
 
 
 
