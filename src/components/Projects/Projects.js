@@ -6,6 +6,7 @@ import PlagCheck from "../../Assets/Projects/plagCheck.png";
 import api from "../../Assets/Projects/api.png";
 import gblog from "../../Assets/Projects/gblog.png";
 import keeper from "../../Assets/Projects/keeper.png";
+import chat from "../../Assets/Projects/chat.png";
 import todo from "../../Assets/Projects/todo.png";
 import YogGuru from "../../Assets/Projects/YogGuru.png";
 
@@ -21,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              isBlog={false}
+              title="Connect NOW"
+              description=" A real-time chat application built using MERN stack and socket.io. It includes user authentication, message history, support for emojis with a responsive UI. By implementing WebSocket communication, users can enjoy instant messaging, creating a dynamic user experience. MongoDB is utilized for scalable data storage, optimizing chat history and user data management. "
+              ghLink="https://github.com/EshaSahu/Connect-NOW."
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={keeper}
@@ -83,6 +94,7 @@ function Projects() {
               
             />
           </Col>
+          
         </Row>
       </Container>
     </Container>

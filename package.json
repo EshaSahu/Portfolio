@@ -46,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "🧷 Discover more about me at https://portfolio-six-sage-76.vercel.app/",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

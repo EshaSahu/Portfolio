@@ -2,20 +2,19 @@ import React, {useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-// import pdf from "../../Assets/esha.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
-// import { Document, Page, pdfjs } from "react-pdf";
+
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import 'react-pdf/dist/Page/TextLayer.css';
 import Img from "../../Assets/esha.png"
 
 
 
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 
 function ResumeNew() {
-  // const [width, setWidth] = useState(1200);
-  // const [pdfError, setPdfError] = useState(null);
+  
 
   useEffect(() => {
     // setWidth(window.innerWidth);
@@ -30,7 +29,7 @@ function ResumeNew() {
           
           <Button
             variant="primary"
-            href={"https://drive.google.com/file/d/17qKP0zNzBT4KlG2j2qB7ACmPCiVPOUsg/view?usp=sharing"}
+            href={"https://drive.google.com/file/d/1GJR2zGI3qd6TaoGEeuCOuhFa5fHKzMsC/view?usp=sharing"}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -65,7 +64,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={"https://drive.google.com/file/d/17qKP0zNzBT4KlG2j2qB7ACmPCiVPOUsg/view?usp=sharing"}
+            href={"https://drive.google.com/file/d/1GJR2zGI3qd6TaoGEeuCOuhFa5fHKzMsC/view?usp=sharing"}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
